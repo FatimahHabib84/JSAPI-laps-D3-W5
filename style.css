@@ -1,0 +1,73 @@
+:root{
+    --primary-color:mediumblue;
+    --secondry-color:whitesmoke;
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0 5rem;
+    background-color: var(--primary-color);
+}
+main{
+    background-color: var(--secondry-color);
+    height: 70vh;
+}
+.main-pharagraph{
+    color: var(--primary-color);
+    text-align: center;
+}
+header>p{
+    font-size: 1.5em;
+    color: white;
+}
+.main-container{
+    background-color: var(--secondry-color);
+    display: grid;
+    margin: auto;
+}
+.phone-container{
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
+.phone-name{
+    color: white;
+    text-align: center;
+}
+.phone-paragraph{
+    color: gray;
+}
+.phone-button{
+    color: var(--primary-color);
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+#web-link{
+    width: 80vw;
+    margin: auto;
+}
+.phone-paragraph{
+    text-align: center;
+}
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container{
+        grid-template-columns:auto auto ;
+    }   
+}
+@media only screen and (min-width: 601px) {
+    .main-container{
+        grid-template-columns: auto auto auto auto;
+    }   
+}
