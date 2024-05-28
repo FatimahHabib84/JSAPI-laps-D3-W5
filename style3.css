@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h5{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}

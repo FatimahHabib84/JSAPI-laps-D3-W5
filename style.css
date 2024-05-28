@@ -10,6 +10,7 @@ header{
     padding: 0 5rem;
     background-color: var(--primary-color);
 }
+
 main{
     background-color: var(--secondry-color);
     height: 70vh;
@@ -18,9 +19,10 @@ main{
     color: var(--primary-color);
     text-align: center;
 }
-header>p{
+header>p.header-nav , header>a{
     font-size: 1.5em;
     color: white;
+    text-decoration: none;
 }
 .main-container{
     background-color: var(--secondry-color);
